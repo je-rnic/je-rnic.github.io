@@ -2,9 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Color Palette:
+	#3D2320
+	#57423F
+	#334056
+	#637088
+	#BFA6A2
 */
 
 html, body, div, span, applet, object,
@@ -2831,19 +2834,19 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #2d2221;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #202836;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #334056;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #4e2b28;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -3410,7 +3413,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #3D2320 ;
 			content: '';
 			display: block;
 			height: 100%;
