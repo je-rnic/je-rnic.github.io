@@ -2,7 +2,7 @@
 import styles from "./page.module.css";
 import { useEffect } from "react";
 import Landing from '../components/Landing';
-/* import Projects from '../components/Projects'; */
+import Projects from '../components/Projects';
 
 export default function Home() {
 	useEffect(() => {
@@ -19,10 +19,11 @@ export default function Home() {
       </AnimatePresence>
       
       <Description />
-      <Projects />
+
       <SlidingImages />
       <Contact /> */}
 			<Landing />
+			<Projects />
 		</main>
 	);
 }

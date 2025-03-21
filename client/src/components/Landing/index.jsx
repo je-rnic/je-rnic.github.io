@@ -31,13 +31,14 @@ export default function Home() {
         <main className={styles.main}>
             <Image
                 fill={true}
-                /* src="/images/background.jpg" */
+                src="/images/background.jpg"
                 alt="image"
             ></Image>
 
             <div className={styles.sliderContainer}>
                 <div className={styles.slider}>
                     <p ref={firstText}>Fullstack Developer -</p>
+                    <p ref={secondText}>Fullstack Developer -</p>
                     <p ref={secondText}>Fullstack Developer -</p>
                 </div>
             </div>
